@@ -1,0 +1,29 @@
+$mycolor:green;
+$mywidth:100%;
+$j-ctr:center;
+$dis:flex;
+$a-ctr:center;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+.container{
+    width: $mywidth;
+    height: 100vh;
+    display: $dis;
+    justify-content: $j-ctr;
+    align-items: $a-ctr;
+    color: $mycolor;
+.box{
+    display: $dis;
+    justify-content: $j-ctr;
+    align-items: $a-ctr;
+    width: 50%;
+    height: 50vh;
+    color: white;
+}
+}
+}
